@@ -39,7 +39,7 @@ $(document).ready(function() {
         //Design
         controlArrows: true,
         verticalCentered: true,
-        sectionsColor : ['#ccc', '#fff'],
+        sectionsColor : ['#fff', '#ccc', '#fff', '#ccc'],
         paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
