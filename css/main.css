@@ -13,10 +13,14 @@
 }
 
 body {
-	padding-top: 51px;
 	position: relative;
 }
 
 div.row {
 	padding-top: 51px;
+}
+
+div#events {
+	height: calc(100vh - 51px);
+	background-color: #1E88E5;
 }
