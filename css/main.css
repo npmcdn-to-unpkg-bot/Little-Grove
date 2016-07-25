@@ -11,3 +11,12 @@
 .clearfix:after {
     clear: both;
 }
+
+body {
+	padding-top: 51px;
+	position: relative;
+}
+
+div.row {
+	padding-top: 51px;
+}
