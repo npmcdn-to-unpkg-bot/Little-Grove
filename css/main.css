@@ -20,7 +20,28 @@ div.row {
 	padding-top: 51px;
 }
 
-div#events {
-	height: calc(100vh - 51px);
-	background-color: #1E88E5;
+div#home {
+	/*height: calc(100vh - 51px);*/
 }
+
+.fa {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+i {
+	margin-right: 10px;
+	font-size: 0.9rem;
+}
+
+footer {
+	max-width: 100%;
+	background-color: #f8f8f8;
+	height: 125px;
+	padding: 50px;
+}
+
+
+
+
+

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
   // Add scrollspy to <body>
   $('body').scrollspy({ target: ".navbar" });
   // Add smooth scrolling on all links inside the navbar
@@ -15,7 +15,6 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, function(){
-   
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
