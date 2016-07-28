@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
 
   // Add scrollspy to <body>
   $('body').scrollspy({ target: ".navbar" });
