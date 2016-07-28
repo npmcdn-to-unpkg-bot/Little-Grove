@@ -21,6 +21,10 @@ div.row {
 	padding-top: 51px; 
 }
 
+div>h1 {
+	padding-bottom: 10px;
+}
+
 footer {
 	max-width: 100%;
 	background-color: #f8f8f8;
@@ -37,6 +41,7 @@ nav i.fa {
 i {
 	margin-right: 15px;
 }
+
 
 
 
