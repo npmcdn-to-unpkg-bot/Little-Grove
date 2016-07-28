@@ -11,3 +11,41 @@
 .clearfix:after {
     clear: both;
 }
+
+body {
+	position: relative;
+}
+
+/*Scrollspy top padding*/
+div.row {
+	padding-top: 51px; 
+}
+
+div>h1 {
+	padding-bottom: 10px;
+}
+
+footer {
+	max-width: 100%;
+	background-color: #f8f8f8;
+	height: 125px;
+	padding: 50px;
+}
+
+/*Navigation Social buttons*/
+nav i.fa {
+	font-size: 2.6rem;
+	margin: 0;
+}
+
+i {
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
