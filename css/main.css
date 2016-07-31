@@ -59,6 +59,8 @@ i {
 	margin-right: 15px;
 }
 
+/*
+ISOTOPE.JS GALLERY STYLES **********************************************************************************/
 
 .gallery-container {
   margin: 0 auto;
@@ -71,7 +73,42 @@ i {
   width: calc(33.3333333333% - 2px);
 }
 
+/*
+FAQ STYLES **********************************************************************************/
 
+.faq-container {
+  min-width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.question {
+  cursor: pointer;
+  position: relative;
+  background-color: #ccc;
+  padding: 15px 100px 15px 15px; 
+}
+
+.question:before {
+  content: "\f067";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.question.is-active:before {
+  content: "\f068";
+}
+
+.answer {
+  display: none;
+  padding: 0 15px;
+}
 
 
 
