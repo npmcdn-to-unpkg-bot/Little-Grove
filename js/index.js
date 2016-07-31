@@ -21,4 +21,11 @@ $(function(){
     }  // End if
   });
 
+  $('.gallery-container').imagesLoaded(function() {
+    $('.grid').isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'masonry',
+    });
+  });
+
 });
