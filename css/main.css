@@ -1,3 +1,6 @@
+/*
+MAIN STYLES **********************************************************************************/
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -14,23 +17,12 @@
 
 body {
 	position: relative;
+	font-family: ;
+	font-size: 16px;
 }
 
-/*Scrollspy top padding*/
-div.row {
-	padding-top: 51px; 
-}
-
-div>h1 {
-	padding-bottom: 10px;
-}
-
-footer {
-	max-width: 100%;
-	background-color: #f8f8f8;
-	height: 125px;
-	padding: 50px;
-}
+/*
+NAV STYLES **********************************************************************************/
 
 /*Navigation Social buttons*/
 nav i.fa {
@@ -38,12 +30,46 @@ nav i.fa {
 	margin: 0;
 }
 
+/*Scrollspy top padding for sections*/
+div.row {
+	padding-top: 51px;
+	font-size: 2rem;
+}
+
+/*
+FOOTER STYLES **********************************************************************************/
+
+footer {
+	max-width: 100%;
+	background-color: #f8f8f8;
+	height: 125px;
+	padding: 50px;
+	font-size: 1.5rem;
+}
+
+/*
+SECTION STYLES **********************************************************************************/
+
+div>h1 {
+	padding-bottom: 10px;
+}
+
+/*Section FontAwesome image style*/
 i {
 	margin-right: 15px;
 }
 
 
+.gallery-container {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 1024px;
+}
 
+.grid-item {
+  margin: 1px;
+  width: calc(33.3333333333% - 2px);
+}
 
 
 
