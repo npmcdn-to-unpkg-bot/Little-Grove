@@ -60,6 +60,13 @@ i {
 }
 
 /*
+EVENTS STYLES **********************************************************************************/
+
+#events img {
+  padding: 3px;
+}
+
+/*
 ISOTOPE.JS GALLERY STYLES **********************************************************************************/
 
 .gallery-container {
@@ -89,7 +96,7 @@ h2 {
   cursor: pointer;
   position: relative;
   background-color: #ccc;
-  padding: 15px 100px 15px 15px; 
+  padding: 15px 100px 15px 15px;
 }
 
 .question:before {
@@ -109,6 +116,3 @@ h2 {
   display: none;
   padding: 0 15px;
 }
-
-
-
