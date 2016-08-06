@@ -30,10 +30,14 @@ nav i.fa {
 	margin: 0;
 }
 
+nav {
+  margin-bottom: 100px;
+}
+
 /*Scrollspy top padding for sections*/
 div.row {
 	padding-top: 51px;
-	font-size: 2rem;
+	font-size: 2.1rem;
 }
 
 /*
@@ -51,7 +55,7 @@ footer {
 SECTION STYLES **********************************************************************************/
 
 div>h1 {
-	padding-bottom: 10px;
+	padding-bottom: 25px;
 }
 
 /*Section FontAwesome image style*/
