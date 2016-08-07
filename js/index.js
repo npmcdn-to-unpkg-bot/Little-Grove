@@ -43,6 +43,10 @@ $(function(){
 
 });
 
-
+  $('.is-hidden').waypoint(function(){
+    $(this.element).removeClass('is-hidden').addClass('is-active');
+  }, {
+    offset: '75%'
+  });
 
 });
