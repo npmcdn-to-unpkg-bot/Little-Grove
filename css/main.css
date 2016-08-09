@@ -27,7 +27,7 @@ NAV STYLES *********************************************************************
 /*Scrollspy top padding for sections*/
 div.row:not(.footer):not(.lg-images) {
 	padding-top: 60px;
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 }
 
 /*
@@ -38,6 +38,7 @@ FOOTER STYLES ******************************************************************
 	background-color: #222;
   padding: 25px 0;
   margin-top: 75px;
+  border-top: solid 2px #666;
 }
 
 .footer p {
@@ -45,13 +46,37 @@ FOOTER STYLES ******************************************************************
 }
 
 .footer-copyright {
-  padding: 65px 30px;
-  color: #ddd;
+  padding: 65px 5px;
+}
+
+.footer-text {
+  padding: 0 auto;
 }
 
 .footer-text,
-.footer-nav {
-  padding: 0 10px;
+.footer-nav,
+.footer-copyright {
+  color: #777;
+}
+
+.footer li {
+  background-color: #444;
+  border-radius: 2px;
+}
+
+.footer li:on-hover {
+  background-color: #ccc;
+  border-radius: 2px;
+}
+
+.note {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.note:on-hover {
+  text-decoration: none;
+  color: #337add;
 }
 
 /*
@@ -75,10 +100,6 @@ HOME STYLES ********************************************************************
 
 .lg-images {
   padding-top: 35px;
-}
-
-.lg-images img {
-  min-height: 170px;
 }
 
 /*
@@ -107,10 +128,6 @@ FAQ STYLES *********************************************************************
 .faq-container {
   min-width: 90%;
   margin: 0 auto;
-}
-
-h2 {
-  font-size: 2rem;
 }
 
 .question {
