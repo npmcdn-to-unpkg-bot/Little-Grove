@@ -25,7 +25,7 @@ body {
 NAV STYLES **********************************************************************************/
 
 /*Scrollspy top padding for sections*/
-div.row:not(.footer):not(.lg-images):not(#staff) {
+div.row:not(.footer):not(.lg-images):not(.staff) {
 	padding-top: 60px;
 	font-size: 2.1rem;
 }
@@ -105,10 +105,19 @@ HOME STYLES ********************************************************************
 /*
 ABOUT STYLES **********************************************************************************/
 
+.staff {
+  padding-top: 25px;
+  font-size: 2.1rem; 
+}
+
+.staff h3 {
+  margin-top: 5px;
+}
+
 /*
 GALLERY STYLES **********************************************************************************/
 
-.gallery-container {
+/*.gallery-container {
   margin: 0 auto;
   max-width: 90%;
   width: 1024px;
@@ -118,7 +127,7 @@ GALLERY STYLES *****************************************************************
   margin: 1px;
   width: calc(33.3333333333% - 2px);
 }
-
+*/
 /*
 CONTACT STYLES **********************************************************************************/
 
